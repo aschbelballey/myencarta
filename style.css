@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    
+}
+.orange{
+    color: beige;
+}
+h2{
+    text-align: center;
+    margin-top: 200px;
+    padding: 50px;
+    font-size: 100px;
+}
+a{
+    text-decoration: none;
+    color:red   ;
+}
+ul{
+    list-style: none;
+    font-size: 30px;
+    font-family: cursive;
+}
+li{
+    font-weight: bold;
+
+}
+header{
+    background-color: darkgray;
+    padding:15px;
+    border-bottom: solid 3px;
+}
+body{
+    background-image: url(efgh.jpg);
+ background-size: cover;
+ background-repeat:no-repeat ;
+    height:  1000px;
+ 
+}
+
+.search{
+    display: flex;
+    float: right;
+padding: 20px;
+margin-top: 30px;
+}
+input{
+
+    padding:7px;
+   
+}
+
+
+.contener{
+    text-align: center;
+}
+.tuto{
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.momo{
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 7px;
+
+
+
+}
+.bibli{
+    background-color: khaki;
+    padding: 10px;
+    border-radius: 7px;
+   
+
+}
+.last{
+    display: flex;
+
+justify-content: space-between;
+margin-top: 20px;
+padding: 20px;
+}
+button{
+    padding: 10px;
+
+    background-color: white;
+    transition: all ease;
+}
+button:hover{
+    background-color: blueviolet;
+    transition: 1s;
+    scale: 0.19s;
+}
